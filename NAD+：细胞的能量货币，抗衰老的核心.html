@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>NAD+：细胞的能量货币，抗衰老的核心</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest"></script>
+</head>
+<body class="antialiased bg-gradient-to-br from-indigo-950 to-purple-900 min-h-screen flex flex-col">
+    <div class="container mx-auto px-4 py-8 flex flex-col flex-1">
+        <header class="mb-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white tracking-tight mb-2">NAD<sup>+</sup>：细胞的能量货币，抗衰老的核心</h1>
+            <div class="w-24 h-1 bg-gradient-to-r from-indigo-400 to-purple-400 mx-auto rounded-full"></div>
+        </header>
+
+        <main class="flex-1 flex flex-col gap-8">
+            <!-- Section 1: 细胞能量之源 -->
+            <section class="bg-white bg-opacity-[0.03] backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 flex items-center">
+                    <span class="inline-block w-8 h-8 bg-indigo-500 rounded-full mr-3 flex items-center justify-center text-white">1</span>
+                    细胞能量之源
+                </h2>
+                <div class="flex flex-col md:flex-row gap-6 items-center">
+                    <div class="md:w-1/2">
+                        <div class="nadmechanism-container relative">
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg id="nadmechanism" class="w-full h-auto" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="cellGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" stop-color="#4338ca" stop-opacity="0.2"/>
+                                        <stop offset="100%" stop-color="#6d28d9" stop-opacity="0.1"/>
+                                    </linearGradient>
+                                    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                                        <feGaussianBlur stdDeviation="5" result="blur"/>
+                                        <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+                                    </filter>
+                                </defs>
+                                
+                                <!-- Cell outline -->
+                                <ellipse cx="400" cy="300" rx="350" ry="250" fill="url(#cellGradient)" stroke="#a5b4fc" stroke-width="2" stroke-dasharray="5,5"/>
+                                
+                                <!-- Mitochondria -->
+                                <ellipse cx="400" cy="300" rx="180" ry="120" fill="#312e81" fill-opacity="0.3" stroke="#a5b4fc" stroke-width="2"/>
+                                <text x="400" y="300" font-family="Inter, Arial, sans-serif" font-size="18" fill="white" text-anchor="middle">线粒体</text>
+                                
+                                <!-- NAD+ and NADH -->
+                                <circle id="nadplus" cx="250" cy="250" r="40" fill="#4f46e5" fill-opacity="0.7" stroke="white" stroke-width="2" filter="url(#glow)"/>
+                                <text x="250" y="255" font-family="Inter, Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="500">NAD+</text>
+                                
+                                <circle id="nadh" cx="550" cy="250" r="40" fill="#8b5cf6" fill-opacity="0.7" stroke="white" stroke-width="2" filter="url(#glow)"/>
+                                <text x="550" y="255" font-family="Inter, Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="500">NADH</text>
+                                
+                                <!-- Electron transfer chain visual -->
+                                <rect x="320" y="350" width="160" height="60" rx="5" fill="#312e81" stroke="#a5b4fc" stroke-width="2"/>
+                                <text x="400" y="385" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">电子传递链</text>
+                                
+                                <!-- ATP symbol -->
+                                <circle cx="400" cy="470" r="35" fill="#059669" fill-opacity="0.7" stroke="white" stroke-width="2" filter="url(#glow)"/>
+                                <text x="400" y="475" font-family="Inter, Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="500">ATP</text>
+                                
+                                <!-- Process arrows -->
+                                <path d="M290 250 L 510 250" stroke="white" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+                                <path d="M550 290 L 550 350 L 480 350" stroke="white" stroke-width="2" fill="none" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+                                <path d="M400 410 L 400 435" stroke="white" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+                                
+                                <!-- Labels -->
+                                <text x="400" y="240" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">电子转移</text>
+                                <text x="550" y="320" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">电子传递</text>
+                                <text x="400" y="425" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">能量产生</text>
+                                
+                                <!-- Arrow marker -->
+                                <defs>
+                                    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+                                        <polygon points="0 0, 10 3.5, 0 7" fill="white"/>
+                                    </marker>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <p class="text-gray-200 mb-4 leading-relaxed">
+                            <span class="text-white font-bold">NAD+</span> (烟酰胺腺嘌呤二核苷酸) 是细胞内能量产生的关键辅酶，如同引擎中的火花塞，驱动着能量代谢的运转。
+                        </p>
+                        <p class="text-gray-200 mb-4 leading-relaxed">
+                            在<span class="text-white font-semibold">糖酵解</span>过程中，NAD+ 接受电子，转化为 <span class="text-white font-semibold">NADH</span>。随后，NADH 将电子传递至线粒体电子传递链，驱动 <span class="text-white font-semibold">ATP</span>（细胞能量货币）的生成。
+                        </p>
+                        <p class="text-gray-200 leading-relaxed">
+                            在<span class="text-white font-semibold">线粒体</span>中，NADH 将电子传递给复合物 I，启动电子传递链。电子的传递释放能量，形成质子梯度，最终驱动 ATP 的合成，为细胞提供维持正常生理功能的能量。
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 2: 年龄与NAD+的关系 -->
+            <section class="bg-white bg-opacity-[0.03] backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 flex items-center">
+                    <span class="inline-block w-8 h-8 bg-indigo-500 rounded-full mr-3 flex items-center justify-center text-white">2</span>
+                    年龄与NAD<sup>+</sup>的关系
+                </h2>
+                <div class="flex flex-col md:flex-row gap-6 items-center">
+                    <div class="md:w-1/2 order-2 md:order-1">
+                        <p class="text-gray-200 mb-4 leading-relaxed">
+                            研究表明，随着年龄增长，人体内的 <span class="text-white font-bold">NAD+</span> 水平显著下降。从20岁到80岁，NAD+水平可能下降高达<span class="text-white font-semibold">50%以上</span>。
+                        </p>
+                        <p class="text-gray-200 mb-4 leading-relaxed">
+                            这种下降被认为与多种<span class="text-white font-semibold">衰老相关现象</span>有直接关联，包括代谢能力下降、细胞再生能力减弱和组织功能退化。
+                        </p>
+                        <p class="text-gray-200 leading-relaxed">
+                            NAD+水平的下降可能是由于<span class="text-white font-semibold">氧化应激</span>和<span class="text-white font-semibold">慢性炎症</span>的增加，这会通过激活CD38和PARP等酶来扰乱NAD+代谢，最终导致NAD+水平的持续降低。
+                        </p>
+                        <div class="mt-4 py-3 px-4 bg-indigo-900 bg-opacity-50 rounded-lg border border-indigo-700/50">
+                            <p class="text-indigo-200 font-mono text-sm font-geist-mono">
+                                <span class="text-indigo-100 font-semibold">研究发现：</span> 45岁以上人群的脑脊液中NAD+水平比年轻人群平均下降约14%，在老年期大脑中的下降幅度可达25%。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 order-1 md:order-2">
+                        <div class="nadage-container relative">
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg id="nadage" class="w-full h-auto" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="chartGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.8"/>
+                                        <stop offset="100%" stop-color="#4f46e5" stop-opacity="0.1"/>
+                                    </linearGradient>
+                                </defs>
+                                
+                                <!-- Chart background -->
+                                <rect x="100" y="50" width="600" height="350" fill="transparent" stroke="#a5b4fc" stroke-width="1" stroke-opacity="0.3"/>
+                                
+                                <!-- Y-axis -->
+                                <line x1="100" y1="50" x2="100" y2="400" stroke="white" stroke-width="2"/>
+                                <!-- Y-axis tick marks and labels -->
+                                <line x1="95" y1="50" x2="100" y2="50" stroke="white" stroke-width="1"/>
+                                <text x="85" y="55" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="end">100%</text>
+                                
+                                <line x1="95" y1="137.5" x2="100" y2="137.5" stroke="white" stroke-width="1"/>
+                                <text x="85" y="142.5" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="end">75%</text>
+                                
+                                <line x1="95" y1="225" x2="100" y2="225" stroke="white" stroke-width="1"/>
+                                <text x="85" y="230" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="end">50%</text>
+                                
+                                <line x1="95" y1="312.5" x2="100" y2="312.5" stroke="white" stroke-width="1"/>
+                                <text x="85" y="317.5" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="end">25%</text>
+                                
+                                <line x1="95" y1="400" x2="100" y2="400" stroke="white" stroke-width="1"/>
+                                <text x="85" y="405" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="end">0%</text>
+                                
+                                <!-- X-axis -->
+                                <line x1="100" y1="400" x2="700" y2="400" stroke="white" stroke-width="2"/>
+                                <!-- X-axis tick marks and labels -->
+                                <line x1="100" y1="400" x2="100" y2="405" stroke="white" stroke-width="1"/>
+                                <text x="100" y="425" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">20</text>
+                                
+                                <line x1="220" y1="400" x2="220" y2="405" stroke="white" stroke-width="1"/>
+                                <text x="220" y="425" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">30</text>
+                                
+                                <line x1="340" y1="400" x2="340" y2="405" stroke="white" stroke-width="1"/>
+                                <text x="340" y="425" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">40</text>
+                                
+                                <line x1="460" y1="400" x2="460" y2="405" stroke="white" stroke-width="1"/>
+                                <text x="460" y="425" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">50</text>
+                                
+                                <line x1="580" y1="400" x2="580" y2="405" stroke="white" stroke-width="1"/>
+                                <text x="580" y="425" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">60</text>
+                                
+                                <line x1="700" y1="400" x2="700" y2="405" stroke="white" stroke-width="1"/>
+                                <text x="700" y="425" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">70</text>
+                                
+                                <!-- Chart title and axis labels -->
+                                <text x="400" y="470" font-family="Inter, Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="500">年龄 (岁)</text>
+                                <text x="50" y="225" font-family="Inter, Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" transform="rotate(-90, 50, 225)" font-weight="500">NAD+ 水平 (%)</text>
+                                
+                                <!-- NAD+ level curve -->
+                                <path d="M100,50 C150,75 200,110 250,150 C300,190 350,235 400,270 C450,305 500,330 550,350 C600,370 650,385 700,390" fill="none" stroke="#6366f1" stroke-width="3"/>
+                                
+                                <!-- Area under the curve -->
+                                <path d="M100,50 C150,75 200,110 250,150 C300,190 350,235 400,270 C450,305 500,330 550,350 C600,370 650,385 700,390 L700,400 L100,400 Z" fill="url(#chartGradient)"/>
+                                
+                                <!-- Data points with hover effect -->
+                                <circle cx="100" cy="50" r="6" fill="#6366f1" stroke="white" stroke-width="2" class="data-point">
+                                    <title>20岁: NAD+水平约100%</title>
+                                </circle>
+                                <circle cx="220" cy="110" r="6" fill="#6366f1" stroke="white" stroke-width="2" class="data-point">
+                                    <title>30岁: NAD+水平约80%</title>
+                                </circle>
+                                <circle cx="340" cy="190" r="6" fill="#6366f1" stroke="white" stroke-width="2" class="data-point">
+                                    <title>40岁: NAD+水平约60%</title>
+                                </circle>
+                                <circle cx="460" cy="270" r="6" fill="#6366f1" stroke="white" stroke-width="2" class="data-point">
+                                    <title>50岁: NAD+水平约40%</title>
+                                </circle>
+                                <circle cx="580" cy="330" r="6" fill="#6366f1" stroke="white" stroke-width="2" class="data-point">
+                                    <title>60岁: NAD+水平约20%</title>
+                                </circle>
+                                <circle cx="700" cy="390" r="6" fill="#6366f1" stroke="white" stroke-width="2" class="data-point">
+                                    <title>70岁: NAD+水平约10%</title>
+                                </circle>
+                                
+                                <!-- Critical threshold indicator -->
+                                <line x1="100" y1="225" x2="700" y2="225" stroke="#f43f5e" stroke-width="2" stroke-dasharray="5,5"/>
+                                <text x="710" y="225" font-family="Inter, Arial, sans-serif" font-size="14" fill="#f43f5e" text-anchor="start">临界阈值</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section 3: NAD+不足的健康风险 -->
+            <section class="bg-white bg-opacity-[0.03] backdrop-blur-sm border border-white/10 rounded-2xl p-6 md:p-8">
+                <h2 class="text-2xl md:text-3xl font-semibold text-white mb-6 flex items-center">
+                    <span class="inline-block w-8 h-8 bg-indigo-500 rounded-full mr-3 flex items-center justify-center text-white">3</span>
+                    NAD<sup>+</sup>不足的健康风险
+                </h2>
+                <div class="flex flex-col md:flex-row gap-6">
+                    <div class="md:w-1/2">
+                        <div class="nadhealth-container relative">
+                            <?xml version="1.0" encoding="UTF-8"?>
+                            <svg id="nadhealth" class="w-full h-auto" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <radialGradient id="bodyGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                                        <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.3"/>
+                                        <stop offset="100%" stop-color="#4f46e5" stop-opacity="0"/>
+                                    </radialGradient>
+                                </defs>
+                                
+                                <!-- Human body silhouette -->
+                                <path d="M400,100 C430,100 450,120 450,140 C450,160 430,180 430,200 L440,210 L440,240 C440,240 470,260 480,290 C490,320 490,350 490,350 L470,370 L470,450 C470,450 480,500 480,530 L450,550 L450,580 L425,580 L425,550 L410,540 L400,580 L390,540 L375,550 L375,580 L350,580 L350,550 L320,530 C320,500 330,450 330,450 L330,370 L310,350 C310,350 310,320 320,290 C330,260 360,240 360,240 L360,210 L370,200 C370,180 350,160 350,140 C350,120 370,100 400,100 Z" fill="url(#bodyGlow)" stroke="white" stroke-width="2"/>
+                                
+                                <!-- Brain - connecting to cognitive decline -->
+                                <ellipse cx="400" cy="130" rx="40" ry="30" fill="#f43f5e" fill-opacity="0.6" stroke="white" stroke-width="1" class="organ-highlight">
+                                    <title>认知功能下降</title>
+                                </ellipse>
+                                <text x="400" y="135" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">大脑</text>
+                                <line x1="440" y1="130" x2="550" y2="110" stroke="white" stroke-width="1" stroke-dasharray="5,2"/>
+                                <rect x="550" y="90" width="150" height="40" rx="5" fill="#f43f5e" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+                                <text x="625" y="115" font-family="Inter, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">认知功能下降</text>
+                                
+                                <!-- Heart - connecting to cardiovascular disease -->
+                                <path d="M400,230 C405,220 415,220 420,230 C425,240 435,240 440,230 C445,220 455,220 460,230 L420,260 Z" fill="#f43f5e" fill-opacity="0.6" stroke="white" stroke-width="1" class="organ-highlight">
+                                    <title>心血管疾病</title>
+                                </path>
+                                <text x="400" y="245" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">心脏</text>
+                                <line x1="460" y1="230" x2="550" y2="180" stroke="white" stroke-width="1" stroke-dasharray="5,2"/>
+                                <rect x="550" y="160" width="150" height="40" rx="5" fill="#f43f5e" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+                                <text x="625" y="185" font-family="Inter, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">心血管疾病</text>
+                                
+                                <!-- Liver - connecting to metabolic disorders -->
+                                <ellipse cx="380" cy="300" rx="35" ry="25" fill="#f43f5e" fill-opacity="0.6" stroke="white" stroke-width="1" class="organ-highlight">
+                                    <title>代谢疾病</title>
+                                </ellipse>
+                                <text x="380" y="305" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">肝脏</text>
+                                <line x1="345" y1="305" x2="250" y2="305" stroke="white" stroke-width="1" stroke-dasharray="5,2"/>
+                                <rect x="100" y="285" width="150" height="40" rx="5" fill="#f43f5e" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+                                <text x="175" y="310" font-family="Inter, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">代谢疾病</text>
+                                
+                                <!-- Muscle - connecting to muscle degeneration -->
+                                <path d="M390,420 C400,400 420,400 430,420 C435,430 435,450 430,460 C420,480 400,480 390,460 C385,450 385,430 390,420 Z" fill="#f43f5e" fill-opacity="0.6" stroke="white" stroke-width="1" class="organ-highlight">
+                                    <title>肌肉退化</title>
+                                </path>
+                                <text x="410" y="440" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">肌肉</text>
+                                <line x1="430" y1="440" x2="550" y2="440" stroke="white" stroke-width="1" stroke-dasharray="5,2"/>
+                                <rect x="550" y="420" width="150" height="40" rx="5" fill="#f43f5e" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+                                <text x="625" y="445" font-family="Inter, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">肌肉退化</text>
+                                
+                                <!-- Skin - connecting to aging signs -->
+                                <path d="M330,250 C320,240 310,250 315,260 C320,270 310,280 320,290" fill="none" stroke="#f43f5e" stroke-width="2" class="organ-highlight">
+                                    <title>皮肤老化</title>
+                                </path>
+                                <text x="330" y="270" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">皮肤</text>
+                                <line x1="315" y1="270" x2="250" y2="230" stroke="white" stroke-width="1" stroke-dasharray="5,2"/>
+                                <rect x="100" y="210" width="150" height="40" rx="5" fill="#f43f5e" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+                                <text x="175" y="235" font-family="Inter, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">皮肤老化</text>
+                                
+                                <!-- Intestine - connecting to inflammation -->
+                                <path d="M410,350 C420,340 430,345 430,355 C430,365 420,370 410,360 C400,370 390,365 390,355 C390,345 400,340 410,350 Z" fill="#f43f5e" fill-opacity="0.6" stroke="white" stroke-width="1" class="organ-highlight">
+                                    <title>肠道炎症</title>
+                                </path>
+                                <text x="410" y="355" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">肠道</text>
+                                <line x1="435" y1="355" x2="550" y2="355" stroke="white" stroke-width="1" stroke-dasharray="5,2"/>
+                                <rect x="550" y="335" width="150" height="40" rx="5" fill="#f43f5e" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+                                <text x="625" y="360" font-family="Inter, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">肠道炎症</text>
+                                
+                                <!-- Cell degeneration - connecting to general aging -->
+                                <circle cx="330" cy="380" r="15" fill="#f43f5e" fill-opacity="0.6" stroke="white" stroke-width="1" class="organ-highlight">
+                                    <title>细胞功能退化</title>
+                                </circle>
+                                <text x="330" y="385" font-family="Inter, Arial, sans-serif" font-size="10" fill="white" text-anchor="middle">细胞</text>
+                                <line x1="315" y1="380" x2="250" y2="380" stroke="white" stroke-width="1" stroke-dasharray="5,2"/>
+                                <rect x="100" y="360" width="150" height="40" rx="5" fill="#f43f5e" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+                                <text x="175" y="385" font-family="Inter, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">细胞功能退化</text>
+                                
+                                <!-- Energy symbol - connecting to low energy -->
+                                <path d="M400,500 L410,480 L390,485 L400,465 L410,480 L390,485 Z" fill="#f43f5e" fill-opacity="0.6" stroke="white" stroke-width="1" class="organ-highlight">
+                                    <title>能量水平下降</title>
+                                </path>
+                                <text x="400" y="510" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle">能量</text>
+                                <line x1="415" y1="485" x2="550" y2="485" stroke="white" stroke-width="1" stroke-dasharray="5,2"/>
+                                <rect x="550" y="465" width="150" height="40" rx="5" fill="#f43f5e" fill-opacity="0.2" stroke="white" stroke-width="1"/>
+                                <text x="625" y="490" font-family="Inter, Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">疲劳和能量不足</text>
+                                
+                                <!-- NAD+ center element -->
+                                <circle cx="400" cy="400" r="25" fill="#4f46e5" fill-opacity="0.7" stroke="white" stroke-width="2" filter="url(#glow)"/>
+                                <text x="400" y="405" font-family="Inter, Arial, sans-serif" font-size="14" fill="white" text-anchor="middle" font-weight="500">NAD+</text>
+                                
+                                <!-- Adding indication arrows from NAD+ to all affected organs -->
+                                <path d="M400,375 L400,355" stroke="#4f46e5" stroke-width="1" stroke-opacity="0.6" marker-end="url(#arrowhead)"/>
+                                <path d="M425,400 L450,380" stroke="#4f46e5" stroke-width="1" stroke-opacity="0.6" marker-end="url(#arrowhead)"/>
+                                <path d="M410,375 L410,300" stroke="#4f46e5" stroke-width="1" stroke-opacity="0.6" marker-end="url(#arrowhead)"/>
+                                <path d="M415,380 L420,245" stroke="#4f46e5" stroke-width="1" stroke-opacity="0.6" marker-end="url(#arrowhead)"/>
+                                <path d="M420,380 L400,150" stroke="#4f46e5" stroke-width="1" stroke-opacity="0.6" marker-end="url(#arrowhead)"/>
+                                <path d="M385,385 L330,290" stroke="#4f46e5" stroke-width="1" stroke-opacity="0.6" marker-end="url(#arrowhead)"/>
+                                <path d="M380,385 L330,380" stroke="#4f46e5" stroke-width="1" stroke-opacity="0.6" marker-end="url(#arrowhead)"/>
+                                <path d="M400,425 L400,480" stroke="#4f46e5" stroke-width="1" stroke-opacity="0.6" marker-end="url(#arrowhead)"/>
+                                
+                                <defs>
+                                    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="7" refY="3.5" orient="auto">
+                                        <polygon points="0 0, 10 3.5, 0 7" fill="#4f46e5" fill-opacity="0.6"/>
+                                    </marker>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2">
+                        <p class="text-gray-200 mb-4 leading-relaxed">
+                            <span class="text-white font-bold">NAD+</span> 水平不足与多种健康风险相关，影响全身多个系统：
+                        </p>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <span class="inline-block w-5 h-5 rounded-full bg-red-500 mt-1 mr-2 flex-shrink-0"></span>
+                                <div>
+                                    <h3 class="text-white font-semibold">认知功能下降</h3>
+                                    <p class="text-gray-300 text-sm">NAD+缺乏会影响神经元功能和脑能量代谢，可能增加神经退行性疾病风险。</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="inline-block w-5 h-5 rounded-full bg-red-500 mt-1 mr-2 flex-shrink-0"></span>
+                                <div>
+                                    <h3 class="text-white font-semibold">心血管健康恶化</h3>
+                                    <p class="text-gray-300 text-sm">NAD+水平降低与血管内皮功能障碍、血压调节问题相关，增加心脏疾病风险。</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="inline-block w-5 h-5 rounded-full bg-red-500 mt-1 mr-2 flex-shrink-0"></span>
+                                <div>
+                                    <h3 class="text-white font-semibold">代谢紊乱</h3>
+                                    <p class="text-gray-300 text-sm">NAD+不足会干扰胰岛素敏感性和葡萄糖代谢，增加2型糖尿病和代谢综合征风险。</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="inline-block w-5 h-5 rounded-full bg-red-500 mt-1 mr-2 flex-shrink-0"></span>
+                                <div>
+                                    <h3 class="text-white font-semibold">肌肉功能退化</h3>
+                                    <p class="text-gray-300 text-sm">肌肉组织中NAD+减少会影响肌肉的能量产生和修复能力，加速肌肉萎缩。</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="inline-block w-5 h-5 rounded-full bg-red-500 mt-1 mr-2 flex-shrink-0"></span>
+                                <div>
+                                    <h3 class="text-white font-semibold">免疫功能下降</h3>
+                                    <p class="text-gray-300 text-sm">NAD+参与调节免疫细胞功能，水平降低可能导致免疫系统衰退，增加感染风险。</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="mt-6 py-3 px-4 bg-indigo-900 bg-opacity-50 rounded-lg border border-indigo-700/50">
+                            <p class="text-indigo-200 font-mono text-sm font-geist-mono">
+                                <span class="text-indigo-100 font-semibold">临床观察：</span> NAD+缺乏与肠道炎症、皮肤老化加速、DNA修复能力下降及细胞能量产生不足等多种与衰老相关的病理过程密切相关。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="mt-8 text-center text-gray-400 text-sm py-4">
+            <p>
+                Built with <a href="https://flowith.net" target="_blank" class="text-indigo-400 hover:text-indigo-300 transition">Flowith Oracle</a>.
+            </p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

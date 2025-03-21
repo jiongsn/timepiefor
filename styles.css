@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.font-geist-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+/* SVG Interactions */
+.data-point {
+  transition: r 0.2s ease-in-out, stroke-width 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.data-point:hover {
+  r: 8;
+  stroke-width: 3;
+}
+
+.organ-highlight {
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.organ-highlight:hover {
+  opacity: 1;
+  fill-opacity: 0.8;
+}
+
+/* Animations */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}
+
+#nadplus, #nadh {
+  animation: pulse 3s infinite;
+}
+
+#nadplus {
+  animation-delay: 0s;
+}
+
+#nadh {
+  animation-delay: 1.5s;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  p, li {
+    font-size: 0.95rem;
+  }
+  
+  .nadmechanism-container,
+  .nadage-container,
+  .nadhealth-container {
+    overflow-x: auto;
+  }
+}
+
+/* Frosted glass effect for sections */
+section {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+}
